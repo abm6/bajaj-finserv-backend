@@ -4,7 +4,7 @@ const userController = require('../controllers/user.controller');
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-	res.render('index', { title: 'Express' });
+	res.render('index', { title: 'to post data please go to /chalenge route' });
 });
 
 router.get('/challenge', (req, res) => {
